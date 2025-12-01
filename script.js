@@ -173,9 +173,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
  
 window.addEventListener("load", () => {
-  // const loader = document.getElementById("loading-overlay");
-  const heading = document.getElementById("home-heading");
 
+  const heading = document.getElementById("home-heading");
       heading.classList.add("start-bounce");
 
 });
