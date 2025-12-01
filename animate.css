@@ -198,7 +198,7 @@ h5, */
 .inner_html {
     animation: bounceIn 1.2s ease-out forwards;
     opacity: 0;
-    animation-play-state: paused;
+    /* animation-play-state: paused; */
 }
 
 .start-bounce{

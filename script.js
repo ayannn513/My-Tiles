@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
  
 window.addEventListener("load", () => {
 
-  const heading = document.getElementById("home-heading");
+  const heading = document.getElementById("heading");
       heading.classList.add("start-bounce");
 
 });
