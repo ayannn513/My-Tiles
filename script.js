@@ -172,28 +172,23 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
  
+window.addEventListener("load", () => {
+
+  const heading = document.getElementById("home-heading");
+      heading.classList.add("start-bounce");
+
+});
+ 
+ 
 // window.addEventListener("load", () => {
 //   const loader = document.getElementById("loading-overlay");
-//   const heading = document.getElementById("home-heading");
 
 //   setTimeout(() => {
 //     loader.style.opacity = "0";
 
 //     setTimeout(() => {
 //       loader.style.display = "none";
-
-     
-//       heading.classList.add("start-bounce");
-
-//     }, 0);
-
-//   }, 500); 
-// });
- 
-
- 
-// window.addEventListener("load", () => {
-//   const loader = document.getElementById("loading-overlay");
+//     }, 200); 
 
 //   setTimeout(() => {
 //     loader.style.opacity = "0";
@@ -206,9 +201,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // });
  
 
+//   }, 300);
+// });
  
-
-
 
 const tabs = document.querySelectorAll(".tab");
 const contents = document.querySelectorAll(".tab-contented");
